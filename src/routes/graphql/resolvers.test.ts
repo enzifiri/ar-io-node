@@ -47,6 +47,7 @@ const GQL_TX = {
   height: 834713,
   blockPreviousBlock:
     '-WmnSux8p6DccMRwGh-jq3_wv_deZc0XsgpZnzt0WhPVpA5GmmBW14zhRMT3DbiT',
+  parentId: '',
 };
 
 describe('getPageSize', () => {

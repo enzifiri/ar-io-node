@@ -63,6 +63,11 @@ export const TRUSTED_ARNS_GATEWAY_URL = env.varOrDefault(
   'https://__NAME__.arweave.dev',
 );
 
+// Trusted chunk POST URLs (for posting chunks received at /chunk)
+export const CHUNK_POST_URLS = env
+  .varOrDefault('CHUNK_POST_URLS', `${TRUSTED_NODE_URL}/chunk`)
+  .split(',');
+
 //
 // Data
 //
